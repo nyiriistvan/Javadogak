@@ -18,6 +18,9 @@ import controllers.WordsController;
 import views.MainWindow;
 
 public class App {
+    public void kiir() {
+        System.out.println("Nyiri István, SZOFT II/N, 2022.11.21");
+    }
 public static void main(String[] args) throws Exception {
 MainWindow mainWindow = new MainWindow();
 new MainController(mainWindow);
@@ -26,3 +29,4 @@ new WordsController(mainWindow);
 mainWindow.setVisible(true);
 }
 }
+
